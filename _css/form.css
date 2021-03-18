@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+form {
+	width: 600px;
+	margin: auto;
+}
+input, textarea {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color: rgba(255,255,255,.1);
+}
+input:hover, textarea:hover {
+	background: #dddddd;
+}
+fieldset {
+	border-color: #cecece;
+	margin: 20px;
+}
+textarea {
+	margin-left: 25pt;
+}
+div#identUser {
+	background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+}
+div#Adress {
+	background: url("../_imagens/icone-endereco.png") no-repeat 95% 95%;
+}
+div#msg {
+	background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+}
+div#ped {
+	background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+}
+div#identUser fieldset#sexo{
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 50px; 
+	left: 15%;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+fieldset#pedido option#nada {
+	background-color: rgb(206,215,230);
+}
+fieldset#pedido option#branco {
+	color: #ffffff;
+	background-color: rgb(206,215,230);
+	font-weight: bold;
+}
+fieldset#pedido option#preto {
+	color: #000000;
+	background-color: rgb(206,215,230);
+	font-weight: bold;
+}
+fieldset#pedido option#cinza {
+	color: rgb(126,126,126);
+	background-color: rgb(206,215,230);
+	font-weight: bold;
+}
+fieldset#pedido option#azul {
+	color: rgb(0,0,255);
+	background-color: rgb(206,215,230);
+	font-weight: bold;
+}
+fieldset#pedido option#vermelho {
+	color: rgb(255,0,0);
+	background-color: rgb(206,215,230);
+	font-weight: bold;
+}
+fieldset#pedido option#verde {
+	color: rgb(0,255,0);
+	background-color: rgb(206,215,230);
+	font-weight: bold;
+}
+fieldset#pedido option#rosa {
+	color: rgb(255,0,128);
+	background-color: rgb(206,215,230);
+	font-weight: bold;
+}
+header#botao {
+	position: relative;
+	margin: auto 40%;
+}
+
+
+
+
+
